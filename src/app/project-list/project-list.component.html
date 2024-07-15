@@ -1,0 +1,10 @@
+<div class="project_list">
+    <div class="project" *ngFor="let item of projects">
+        
+        <div><a  href="proyectos"><img src="{{item.url}}" alt="{{item.name}}"></a></div>
+        <div><b>Año: </b>{{item.year}}</div>
+        <div><b>Descripción: </b>{{item.description}}</div>
+        <div><b>Tecnologías: </b>{{item.technologies}}</div>
+    
+    </div>
+</div>

@@ -8,22 +8,27 @@ import { LandingComponent } from './pages/landing/landing.component';
 export const routes: Routes = [
     {
         path: 'mision',
-        component: MisionVisionComponent
+        component: MisionVisionComponent,
+        title:"Acerca"
     },
     {
         path: 'biografia',
-        component: BiografiaComponent
+        component: BiografiaComponent,
+        title:"Biografía"
     },
     {
         path: 'proyectos',
-        component: ProyectosComponent
+        component: ProyectosComponent,
+        title:"Proyectos"
     },
     {
         path: 'tecnologias',
-        component: TecnologiaComponent
+        component: TecnologiaComponent,
+        title:"Tecnologías"
     },
     {
         path: '',
-        component: LandingComponent
+        component: LandingComponent,
+        title:"Inicio"
     }
 ];
