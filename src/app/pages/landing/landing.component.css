@@ -1,5 +1,8 @@
-div{
-    text-align: center;
-    margin-top: 50%;
-    height: 80%;
+.container{
+    background-image: url("https://t4.ftcdn.net/jpg/05/18/87/23/360_F_518872338_ZqBuCYeJ58AIalKfikVfEk6IIYnvpA6S.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+
