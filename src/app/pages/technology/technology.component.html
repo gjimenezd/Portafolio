@@ -1,0 +1,16 @@
+<h1 class="text-centered">Tecnologías Utilizadas</h1>
+<div class="container">
+    <p class="text-wide text-justify">A lo largo de mi carrera como ingeniero de software, he tenido la oportunidad de trabajar con un amplio conjunto de tecnologías que abarcan tanto el desarrollo frontend como backend. Mi experiencia incluye el uso de Gradle para la automatización de builds en proyectos Java y Android, y MariaDB como sistema de gestión de bases de datos relacional, asegurando alta compatibilidad y rendimiento. He implementado Markdown para la creación de documentación clara y accesible, y he utilizado REGEX para realizar búsquedas y manipulaciones de texto precisas. Además, cuento con un sólido manejo de TypeScript, que me ha permitido escribir código JavaScript más robusto y mantenible. En proyectos que requieren el intercambio y estructuración de datos, he trabajado extensamente con XML. También, mi formación incluye lenguajes de bajo nivel como C y C++, donde he desarrollado aplicaciones eficientes y de alto rendimiento. Mi habilidad con Visual Basic for Applications (VBA) me ha permitido automatizar procesos dentro del entorno de Microsoft Office, y con Transact-SQL (T-SQL) he manejado complejas consultas y procedimientos almacenados en bases de datos Microsoft SQL Server.</p>
+    <div class="technology" *ngFor="let item of technologies">
+        <div class="logo-container">
+            <img [src]="item[1]" alt="logo">
+        </div>
+        <div class="techName text-centered">
+            <h1>{{item[0]}}</h1>
+        </div>
+        <div class="techDescription">
+            <p class="text-centered">{{item[2]}}</p>
+        </div>
+    </div>
+</div>
+

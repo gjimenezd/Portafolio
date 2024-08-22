@@ -1,5 +1,9 @@
 <div class="interest_list">
     <div class="interest" *ngFor="let item of interest_list">
-        <b>{{item.name}}: </b>{{item.description}}
+        <div class="photo-interest"><img src="{{item.image}}" alt=""></div>
+        <div class="interest-info">
+            <div class="interest-title"><h3>{{item.name}}</h3></div>
+            <div class="interest-description">{{item.description}}</div>
+        </div>
     </div>
 </div>

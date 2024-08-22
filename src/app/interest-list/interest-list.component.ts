@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Interests } from '../interfaces/index';
+import { Interests } from '../interfaces/interests';
 import { CommonModule } from '@angular/common';
 
 
