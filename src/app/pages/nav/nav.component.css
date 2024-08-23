@@ -1,0 +1,10 @@
+a {
+
+    padding: 20px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: var(--bg-color);
+}

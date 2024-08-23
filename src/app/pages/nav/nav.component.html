@@ -2,10 +2,11 @@
         <img class="logo_small" src="assets/GJ.png" alt="">
         @for (item of [
         { title: 'Inicio', link: '' },
-        { title: 'Acerca', link: '/mision' },
-        { title: 'Biografía', link: '/biografia' },
-        { title: 'Proyectos', link: '/proyectos' },
-        { title: 'Tecnología', link: '/tecnologias' },
+        { title: 'Acerca', link: '/mission' },
+        { title: 'Biografía', link: '/biography' },
+        { title: 'Proyectos', link: '/projects' },
+        { title: 'Tecnología', link: '/technology' },
+        { title: 'Contacto', link: '/contact' },
         ]; track item.title) {
             <a class="pill" [href]="item.link" rel="noopener">
                 <span>{{ item.title }}</span>

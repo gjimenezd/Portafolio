@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 10px 5px;
     padding: 15px;
     width: 200px;
     height: 400px;
@@ -77,9 +77,9 @@ img{
         height: auto;
     }
 
-    .logo-container{
+    /* .logo-container{
         /* height: 10vh; */
-    }
+    } */
 
     img{
         width: 50%;

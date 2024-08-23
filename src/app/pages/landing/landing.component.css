@@ -2,7 +2,18 @@
     background-image: url("https://t4.ftcdn.net/jpg/05/18/87/23/360_F_518872338_ZqBuCYeJ58AIalKfikVfEk6IIYnvpA6S.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
-
+.landing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 25%; */
+    background-color: var(--landing-bg-color);
+    width: 100%;
+}
 

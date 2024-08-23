@@ -4,12 +4,12 @@ import { FooterComponent } from "../footer/footer.component";
 import { ProjectListComponent } from "../../project-list/project-list.component";
 
 @Component({
-  selector: 'app-proyectos',
+  selector: 'app-projects',
   standalone: true,
   imports: [NavComponent, FooterComponent, ProjectListComponent],
-  templateUrl: './proyectos.component.html',
-  styleUrl: './proyectos.component.css'
+  templateUrl: './projects.component.html',
+  styleUrl: './projects.component.css'
 })
-export class ProyectosComponent {
+export class ProjectsComponent {
 
 }

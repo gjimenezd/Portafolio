@@ -1,0 +1,17 @@
+*{
+    align-items: ;
+    text-align: center;
+}
+
+.mission-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.text-container{
+    margin: 20px;
+    width: 80%;
+    background-color: black;
+}

@@ -6,7 +6,7 @@ import { CommonModule, NgFor } from '@angular/common';
 
 
 @Component({
-  selector: 'app-tecnologia',
+  selector: 'app-technology',
   standalone: true,
   imports: [NavComponent, FooterComponent, NgFor],
   templateUrl: './technology.component.html',

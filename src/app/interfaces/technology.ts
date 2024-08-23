@@ -27,4 +27,5 @@ export const technologies = [
     ["VBA", "https://generalbi.com/wp-content/uploads/2020/02/vbaLogo.jpg", "Lenguaje de programación desarrollado por Microsoft que se utiliza principalmente para automatizar procesos en aplicaciones de Office."],
     ["Transact-SQL", "https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg", "Extensión del lenguaje SQL utilizada en Microsoft SQL Server y Sybase ASE para manipulación avanzada de bases de datos."],
     ["PHP", "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg", "Lenguaje de programación de propósito general ampliamente utilizado para el desarrollo web, que se ejecuta del lado del servidor y está especialmente diseñado para la creación de contenido dinámico."],
+    ["PL/SQL", "https://www.oracle.com/a/ocom/img/pl-sql.svg", "Lenguaje de programación procedural diseñado por Oracle para extender las capacidades de SQL en la gestión de bases de datos, permitiendo la creación de procedimientos almacenados, funciones y triggers dentro de Oracle Database."]
 ];

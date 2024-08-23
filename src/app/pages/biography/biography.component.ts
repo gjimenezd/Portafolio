@@ -4,12 +4,12 @@ import { NavComponent } from '../nav/nav.component';
 import { InterestListComponent } from "../../interest-list/interest-list.component";
 
 @Component({
-  selector: 'app-biografia',
+  selector: 'app-biography',
   standalone: true,
   imports: [FooterComponent, NavComponent, InterestListComponent],
-  templateUrl: './biografia.component.html',
-  styleUrl: './biografia.component.css'
+  templateUrl: './biography.component.html',
+  styleUrl: './biography.component.css'
 })
-export class BiografiaComponent {
+export class BiographyComponent {
 
 }

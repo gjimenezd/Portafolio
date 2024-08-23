@@ -3,12 +3,12 @@ import { NavComponent } from '../nav/nav.component';
 import { FooterComponent } from '../footer/footer.component';
 
 @Component({
-  selector: 'app-mision-vision',
+  selector: 'app-mission-vision',
   standalone: true,
   imports: [NavComponent, FooterComponent],
-  templateUrl: './mision-vision.component.html',
-  styleUrl: './mision-vision.component.css'
+  templateUrl: './mission-vision.component.html',
+  styleUrl: './mission-vision.component.css'
 })
-export class MisionVisionComponent {
+export class MissionVisionComponent {
 
 }
